@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import './assets/styles.css'
+import './icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import './server'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.component('FaIcon', FontAwesomeIcon)
+app.mount('#app')

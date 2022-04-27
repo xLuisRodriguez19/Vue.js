@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="h-screen flex flex-col bg-cyan-light">
     <Header class="flex-shrink-0">
 
     </Header>
@@ -21,9 +21,3 @@ export default defineComponent({
   components: { Header }
 })
 </script>
-
-<style>
-#app {
-background: hsl(180, 52%, 96%);
-}
-</style>
